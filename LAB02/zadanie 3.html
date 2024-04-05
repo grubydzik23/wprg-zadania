@@ -10,11 +10,42 @@
     </form>
     <p>Email address*:</p>
     <form name="myBasicForm">
-        <input type="text">
+        <input type="email">
     </form>
     <p>Select Tour Package*:</p>
     <form name="myBasicForm">
+        <input type="text" list="tour" name="tourp">
+        <datalist id="tour">
+            <option value="GOA">
+            <option value="BOA">
+            <option value="DROGA">
+        </datalist>
+    </form>
+    <p>Arrival date*:</p>
+    <form name="myBasicForm">
+        <input type="text" placeholder="m/d/y">
+    </form>
+    <p>Number of persons*:</p>
+    <form name="myBasicForm">
+        <input type="email">
+    </form>
+    <p>What would you want to avail?*</p>
+    <form name="myBasicForm">  
+        <p>Boarding:</p><input type="checkbox" name="avail" value="Boarding">
+        <p>Fooding:</p><input type="checkbox" name="avail" value="Fooding">
+        <p>Sight seeing:</p><input type="checkbox" name="avail" value="Sight seeing">
+    </form>
+    <p>Discount Coupon code:</p>
+    <form name="myBasicForm">
         <input type="text">
+    </form>
+    <p>Terms and conditions*</p>
+    <form>
+        <input type="radio" name="opinion" value="agree"> I agree
+        <input type="radio" name="opinion" value="disagree"> I disagree
+    </form>
+    <form name="myBasicForm">
+        <input type="submit" value="Complete reservation">
     </form>
 </body>
 </html>

@@ -1,0 +1,35 @@
+#lorem{
+   /* border-top-style: double; 
+    border-right-style: double; 
+    border-bottom-style: double; 
+    border-left-style: double;
+    border-width: 10px;*/
+    /*border-color: black;*/
+    background-color: lightgray; 
+    width:30%;
+    padding: 12px;
+    border: solid;
+    border-width: 1px;
+    
+}
+#lorem1{
+    background-color: lightgray;
+    border: solid;
+    border-width: 7px;
+    border-color: white;
+    padding: 10px;
+}
+#lorem2{
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+}
+#lorem3{
+    background-color: lightgrey;
+    padding: 20px;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
+}

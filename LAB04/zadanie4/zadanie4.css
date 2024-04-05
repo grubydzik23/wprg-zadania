@@ -1,0 +1,29 @@
+body {
+    font-size: 30px;
+    
+}
+.box1, .box2, .box3 {
+    background-color: green;
+}
+
+.box1 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 25vh;
+    height: 20vw;
+}
+.box2 {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 300px;
+    height: 150px;
+}
+.box3 {
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    width: 5em;
+    height: 10em;
+}

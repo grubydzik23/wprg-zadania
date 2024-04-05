@@ -1,0 +1,7 @@
+.a ~ .b{
+    background-color: lightblue;
+}
+/*li:nth-last-child(-n+2) {
+    color: black;
+    background-color: lightblue;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2.header {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+p.last {
+    font-size: 1.5em;
+    color: red;
+}
+
+p.second {
+    text-align: left;
+    letter-spacing: 2px; 
+    word-spacing: 5px; 
+    line-height: 1.5; 
+}
+
+strong {
+    font-weight: bold;
+}

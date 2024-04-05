@@ -1,0 +1,12 @@
+body{
+    font-size: large;
+}
+h1{
+    color:aquamarine
+}
+ol[type='A'] li:nth-child(6) {
+    font-size: xx-large;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}

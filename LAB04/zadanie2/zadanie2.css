@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font: caption;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(26, 61, 26);
+}
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.wizytowka {
+    width: 350px ; 
+    margin: 20px auto; 
+    height: 195px ;
+    background-color: #fff;
+    /*border-radius: 8px;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pasek {
+    background-color: rgb(26, 61, 26); 
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.kontakt {
+    padding: 10px;
+    font-size: large;
+}
+.adres {
+    text-align: right;
+    font-family: monospace;
+}
+
+.dol {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    
+}
+.telefon{
+    font-family: monospace;
+}
+.mail{
+    font-weight: bold;
+    color: rgb(26, 61, 26);
+}
