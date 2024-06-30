@@ -1,0 +1,80 @@
+<!--flexbox_7_example.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Flexbox seven example
+    </title>
+</head>
+<style>
+    #container {
+        display: flex;
+        flex-direction: row;
+        height:
+            200px;
+        align-items: baseline;
+        border:
+            2px solid;
+    }
+
+    .box {
+        border:
+            2px solid;
+        font-size:
+            18pt;
+        text-align: center;
+        line-height:
+            50px;
+        padding:
+            10px 10px 10px 10px;
+        margin:
+            10px;
+        width:
+            50px;
+    }
+
+    .box1 {
+        background-color: aliceblue;
+    }
+
+    .box2 {
+        background-color: antiquewhite;
+    }
+
+    .box3 {
+        background-color: aqua;
+    }
+
+    .box4 {
+        background-color: aquamarine;
+        align-self: flex-end;
+    }
+
+    .box5 {
+        background-color: azure;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <div class="box box1">
+            1
+        </div>
+        <div class="box box2">
+            2
+        </div>
+        <div class="box box3">
+            3
+        </div>
+        <div class="box box4">
+            4
+        </div>
+        <div class="box box5">
+            5
+        </div>
+    </div>
+</body>
+
+</html>

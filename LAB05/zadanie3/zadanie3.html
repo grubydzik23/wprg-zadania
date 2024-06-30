@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example 3</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background: url('path_to_header_image.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .header p {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ddd;
+            margin: 10px;
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            margin: 0;
+        }
+        .card .date {
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Numquam, unde?</h1>
+        <p>Dolorem ex vel similique ut consectetur quidem tempore?</p>
+    </div>
+    <div class="navbar">
+        <a href="#">Lorem</a>
+        <a href="#">Aspernatur</a>
+        <a href="#">Adipisci</a>
+        <a href="#">Maxime</a>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>Quae architecto voluptatem beatae.</h2>
+            <p class="date">22-01-2021</p>
+            <p>Eos enim fugiat aspernatur...</p>
+        </div>
+        <div class="card">
+            <h2>Inventore quidem soluta praesentium?</h2>
+            <p class="date">25-01-2021</p>
+            <p>Reprehenderit, ipsam vitae...</p>
+        </div>
+        <div class="card">
+            <h2>Eligendi accusamus iure molestiae?</h2>
+            <p class="date">30-01-2021</p>
+            <p>Quaerat quo, architecto a maiores...</p>
+        </div>
+        <!-- Add more card elements as needed -->
+    </div>
+</body>
+</html>

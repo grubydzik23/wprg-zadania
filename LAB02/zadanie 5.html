@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie 5</title>
+    <style>
+        .form-group {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-group">
+        <label for="tourp">Imię:</label>
+        <input type="text" list="tour" name="tourp">
+    </div>
+    <br><div class="form-group">
+        <label for="kolor">Ulubiony kolor:</label>
+        <input type="color" value="#000000" list="colors" />
+        <datalist id="colors">
+            <option>#ff0000</option>
+            <option>#0000ff</option>
+            <option>#00ff00</option>
+            <option>#ffff00</option>
+            <option>#00ffff</option>
+        </datalist>
+        <button type="button">Zapisz</button>
+    </div>
+</body>
+</html>

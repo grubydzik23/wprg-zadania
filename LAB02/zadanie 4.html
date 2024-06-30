@@ -3,14 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>zadanie 4</title>
+    <style>
+        .datetime-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .datetime-container div input {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <span>Title</span><span style="color: red;">*</span>
+    <span><strong>Title</strong></span><span style="color: red;">*</span>
         <p><label><input type="text" name="time" value=""></label><br></p>
-    <p>Date</p>
+    <p><strong>Date</strong></p>
     <form name="myBasicForm">
         <input type="date" placeholder="yyyy-mm-dd">
     </form>
-    <span>Date only.</span>
+    <span>Date-only description.</span>
+    <br><br>
+    <div style="border: 1px solid grey; width: 500px; padding: 10px">
+        <b>DATE/TIME</b> <br />
+        <p></p>
+        <input id="date" name="date" type="date" /> <input type="time" id="appt" name="appt" min="01:00" max="24:00" required /><br/>
+        <span><p>Date and time description.</p></span>
+        </div>
+        <p></p>
+        <div style="border: 1px solid grey; width: 500px; padding: 10px">
+        <b>DATE RANGE</b><p></p>
+        <div style="border: 1px solid grey; width: 470px; padding: 10px">
+        <b>START DATE</b>
+        <p><input id="date" name="date" type="date" /> <input type="time" id="appt" name="appt" min="01:00" max="24:00" required /></p><br/>
+        </div>
+        <p></p>
+        <div style="border: 1px solid grey; width: 470px; padding: 10px">
+        <b>END DATE</b>
+        <p><input id="date" name="date" type="date" /> <input type="time" id="appt" name="appt" min="01:00" max="24:00" required /><br/></p>
+        </div><br/>
+        <span>Date range description.</span>
+        </div>
+        <p></p>
+        <div style="border: 1px solid grey; width: 500px; padding: 10px">
+        <b>DATE/TIME LIST</b><p></p>
+        <div class="datetime-container">
+            <div>
+                <p><input id="year" placeholder="Year" name="year" type="number" min="1900" max="9999" required /></p>
+            </div>
+            <div>
+                <p><input id="month" placeholder="Month" name="month" type="number" min="1" max="12" required /></p>
+            </div>
+            <div>
+                <p><input id="day" name="day" placeholder="Day" type="number" min="1" max="31" required /></p>
+            </div>
+            <div>
+                <p><input id="hour" name="hour" placeholder="Hour" type="number" min="0" max="23" required /></p>
+            </div>
+            <div>
+                <p><input id="minute" placeholder="Minute" name="minute" type="number" min="0" max="59" required /></p>
+            </div>
+        </div>
+        <span>Date/time list desription.</span>
 </body>
 </html>

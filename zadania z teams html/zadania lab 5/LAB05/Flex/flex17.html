@@ -1,0 +1,83 @@
+<!--order_example.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Order example
+    </title>
+    <style>
+        main {
+            display: flex;
+        }
+
+        header {
+            border:
+                2px solid;
+            text-align: center;
+            border-bottom: none;
+            background: darkcyan;
+        }
+
+        footer {
+            border:
+                1px solid;
+            text-align: center;
+            border-top: none;
+            background: darkcyan;
+        }
+
+        article {
+            flex:
+                1 1 50%;
+            order:
+                2;
+            background: blanchedalmond;
+        }
+
+        #news {
+            flex:
+                1 1 25%;
+            order:
+                3;
+            background: cornflowerblue;
+        }
+
+        #contact {
+            flex:
+                1 1 25%;
+            order:
+                1;
+            background: darkkhaki;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        My super Webpage :-)
+    </header>
+    <main>
+        <article>
+            <h2>
+                Where It's At
+            </h2>
+        </article>
+        <aside id="news">
+            <h2>
+                News
+            </h2>
+        </aside>
+        <aside id="contact">
+            <h2>
+                Contact
+            </h2>
+        </aside>
+    </main>
+    <footer>
+        Copyright by Mr Kapibara
+        <footer>
+</body>
+
+</html>

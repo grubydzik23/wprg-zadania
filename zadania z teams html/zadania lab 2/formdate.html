@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form example 4</title>
+</head>
+
+<body>
+    <div id="main">
+        <form method="GET">
+            <label>Date: <input type="date" name="date" label><br>
+            <label>Time: <input type="time" name="time" value="10:19:00"></label><br>
+            <label>Datetime: <input type="datetime-local" name="datetime" value="2022-08-02T10:19:00"></label>
+            <br>
+            <label>Month: <input type="month" name="month" value="2022-08"></label><br>
+            <label>Week: <input type="week" name="week" value="2022-W32"></label><br>
+            <hr>
+            <label>Number of guests <input type="number" name="guests" min="1" max="6"></label><br>
+            <label>Satisfaction (0 to 10) <input type="range" name="Satisfaction" min="0" max="7" step="1">
+            </label><br>
+            <hr>
+            <label>Choose color: <input type="color" name="color"></label><br>
+            <hr>
+            <label>Percent download: <progress value="20" max="100" id="fave">20</progress> </label><br>
+            <label>Meter example: <meter min="0" max="100" id="meter" optimum="90" value="60">20%</meter>
+            </label><br>
+            <input type="hidden" name="success" value="http://example.com/thankYou.html">
+            <input type="submit" value="SEND">
+            <input type="reset" value="RESET">
+        </form>
+        <hr>
+        <p>Output example:</p>
+        <form onsubmit="return false" oninput="o.value = a.valueAsNumber + b.valueAsNumber">
+            <label>A: <input name="a" type="number" step="any"></label>
+            <label><input name="b" type="number" step="any"></label>
+            <output name="o" for="a b"></output>
+        </form>
+    </div>
+</body>
+
+</html>
